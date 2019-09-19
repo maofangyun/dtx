@@ -1,6 +1,6 @@
 spring:
   application:
-    name: seata-demo-bank1
+    name: seata-demo-trans
   profiles: 
     active: local
 
@@ -16,7 +16,7 @@ spring:
 
 server:
   servlet:
-    context-path: /bank1
+    context-path: /trans
 
 
     

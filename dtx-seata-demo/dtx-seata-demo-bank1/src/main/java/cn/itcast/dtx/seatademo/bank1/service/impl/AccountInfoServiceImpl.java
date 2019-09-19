@@ -4,7 +4,6 @@ import cn.itcast.dtx.seatademo.bank1.dao.AccountInfoDao;
 import cn.itcast.dtx.seatademo.bank1.service.AccountInfoService;
 import cn.itcast.dtx.seatademo.bank1.spring.Bank2Client;
 import io.seata.core.context.RootContext;
-import io.seata.spring.annotation.GlobalTransactional;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -25,7 +24,6 @@ public class AccountInfoServiceImpl implements AccountInfoService {
     Bank2Client bank2Client;
 
     @Transactional
-    @GlobalTransactional//开启全局事务
     @Override
     public void updateAccountBalance(String accountNo, Double amount) {
         log.info("bank1 service begin,XID：{}", RootContext.getXID());
