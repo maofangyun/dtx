@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 /**
  * Created by Administrator.
  */
-@FeignClient(value="seata-demo-bank1",fallback=Bank1ClientFallback.class)
+@FeignClient(value="seata-demo-bank1")
 public interface Bank1Client {
     @GetMapping("/bank1/transfer")
     public  String transfer(@RequestParam("accountNo")String accountNo, @RequestParam("amount") Double amount);

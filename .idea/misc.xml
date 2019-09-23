@@ -5,8 +5,22 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/discover-server/pom.xml" />
+        <option value="E:/learn/资料-微服务架构的分布式事务控制解决方案/day1/代码/dtx/dtx/discover-server/pom.xml" />
+        <option value="E:/learn/资料-微服务架构的分布式事务控制解决方案/day1/资料/基础代码/dtx-tcc-demo/pom.xml" />
+        <option value="E:/learn/资料-微服务架构的分布式事务控制解决方案/day1/资料/基础代码/dtx-tcc-demo/dtx-tcc-demo-bank1/pom.xml" />
+        <option value="E:/learn/资料-微服务架构的分布式事务控制解决方案/day1/资料/基础代码/dtx-tcc-demo/dtx-tcc-demo-bank2/pom.xml" />
+        <option value="E:/learn/资料-微服务架构的分布式事务控制解决方案/day1/代码/dtx-tcc-demo/dtx-tcc-demo/pom.xml" />
+        <option value="E:/learn/资料-微服务架构的分布式事务控制解决方案/day1/代码/dtx-tcc-demo/dtx-tcc-demo/dtx-tcc-demo-bank1/pom.xml" />
+        <option value="E:/learn/资料-微服务架构的分布式事务控制解决方案/day1/代码/dtx-tcc-demo/dtx-tcc-demo/dtx-tcc-demo-bank2/pom.xml" />
+        <option value="E:/learn/资料-微服务架构的分布式事务控制解决方案/day2/代码/dtx-txmsg-demo/dtx-txmsg-demo/pom.xml" />
+        <option value="E:/learn/资料-微服务架构的分布式事务控制解决方案/day2/代码/dtx-txmsg-demo/dtx-txmsg-demo/dtx-txmsg-demo-bank1/pom.xml" />
+        <option value="E:/learn/资料-微服务架构的分布式事务控制解决方案/day2/代码/dtx-txmsg-demo/dtx-txmsg-demo/dtx-txmsg-demo-bank2/pom.xml" />
       </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/dtx-tcc-demo/pom.xml" />
+      </set>
     </option>
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" project-jdk-name="1.8" project-jdk-type="JavaSDK">

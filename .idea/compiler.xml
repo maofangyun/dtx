@@ -9,8 +9,17 @@
         <module name="discover-server" />
         <module name="dtx-seata-demo-bank1" />
         <module name="dtx-seata-demo-bank2" />
+        <module name="dtx-tcc-demo" />
+        <module name="dtx-tcc-demo-bank1" />
+        <module name="dtx-tcc-demo-bank2" />
+        <module name="dtx-txmsg-demo" />
+        <module name="dtx-txmsg-demo-bank1" />
+        <module name="dtx-txmsg-demo-bank2" />
         <module name="trans" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="dtx-tcc-demo" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
